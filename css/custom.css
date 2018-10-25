@@ -3,13 +3,14 @@
 Modify this file to your hearts content and make your website look awesome!*/
 html,body{
 overflow-y:visible;
+scroll-behavior: smooth;
 }
 
 
 
 :root {
 	--navc: #353238;
-	--accentc: #BE5A38;
+	--accentc: #DD6E42;
 	--hoverc: #D7CDCC;
 	--textc: black;
 	--bgc: #EDE3E4;
@@ -49,10 +50,11 @@ background-image:none !important;
 
 
 #contact {
-	margin-top: 8vw;
+	margin-bottom: 8vw;
 }
 /*Home*/
 .full-page-bg {
+
   position: absolute;
   padding-top: 8vw;
   padding-bottom: 100px;
@@ -83,7 +85,8 @@ background: linear-gradient(90deg, var(--accentc) 65%,var(--bgc) 35%);
 #titlewords {
 	margin-top: 8vw;
 	margin-bottom: 4vw;
-	width: 75%;
+	width: 70%;
+
 	  animation-name: pfloadlord;
   animation-duration: 2s;
   animation-timing-function: ease;
@@ -149,17 +152,21 @@ background: linear-gradient(90deg, var(--accentc) 65%,var(--bgc) 35%);
 }
 
 
-
+#contactfont {
+	padding-top: 5vw;
+	font-size: 3vw;
+	color: var(--navc);
+}
 
 #portfoliofont {
-	
+	padding-top: 5vw;
 	font-size: 3vw;
 	color: var(--navc);
 }
 
 
 #pjournalfont {
-	
+	padding-top: 5vw;
 	font-size: 3vw;
 	color: var(--navc);
 }
@@ -188,6 +195,7 @@ img.nav-bar-img{
 }
 
 .navbar{
+
 
 	background-color: var(--navc);
 	margin: 0 auto;
@@ -284,16 +292,19 @@ h1, h2, h3, h4, h5, h6 {
 	h1.welcome-special{
 		font-size: 5vw;
 		color: var(--bgc);
+		text-align: left;
 	animation-name: loadlord;
   animation-duration: 2s;
   animation-timing-function: ease-in;
+
 	}
 
 	h2.welcome-special-sub{
 			font-family: "Josefin Sans";
-	font-weight: 500;
+
 		font-size: 2vw;
 		color: var(--bgc);
+		text-align: left;
 			animation-name: loadlord;
   animation-duration: 3s;
   animation-timing-function: ease-in;
@@ -317,7 +328,7 @@ span.img-caption{
 	display: block;
 	font-size: 1vw;
 	font-weight: 500;
-	padding: 10px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
 }
 
 /*Container/class etc Override Rules*/
@@ -356,7 +367,7 @@ span.img-caption{
 }
 
 .slide-show{
-	padding: 30px 0px 50px 0px;
+	padding: 0px 0px 50px 0px;
 }
 
 /*Footer*/
