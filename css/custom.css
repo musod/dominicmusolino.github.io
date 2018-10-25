@@ -1,0 +1,374 @@
+/*This Custom CSS file has not been structured in any particular order. 
+
+Modify this file to your hearts content and make your website look awesome!*/
+html,body{
+overflow-y:visible;
+}
+
+
+
+:root {
+	--navc: #353238;
+	--accentc: #BE5A38;
+	--hoverc: #D7CDCC;
+	--textc: black;
+	--bgc: #EDE3E4;
+}
+
+body{
+	
+
+	 margin-top: 0vw;
+
+	
+}
+
+
+
+.carousel-control {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+width: 15%;
+font-size: 20px;
+color: var(--accentc);
+text-align: center;
+border-radius: 0px !important; 
+background-image:none !important;
+}
+
+#carouselExampleIndicators{
+    -moz-border-radius: 0px; /* FF1+ */
+    -webkit-border-radius: 0px; /* Saf3-4, iOS 1+, Android 1.5+ */
+    border-radius: 0px; /* Opera 10.5, IE9, Saf5, Chrome, FF4 */
+    overflow:hidden;
+    z-index: 1000;
+    height: 34vw;
+}
+
+
+#contact {
+	margin-top: 8vw;
+}
+/*Home*/
+.full-page-bg {
+  position: absolute;
+  padding-top: 8vw;
+  padding-bottom: 100px;
+  width:100%;
+  min-height: 100vh;
+  /*background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;*/
+  background-color: var(--accentc);/*red*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+background: linear-gradient(90deg, var(--accentc) 65%,var(--bgc) 35%);
+
+  /*Animation attempt 1*/
+
+}
+
+@keyframes pfloadlord {
+	from {
+
+		margin-bottom: 90vw;
+	}
+	to {
+		
+		margin-bottom: 4vw;
+	}
+}
+#titlewords {
+	margin-top: 8vw;
+	margin-bottom: 4vw;
+	width: 75%;
+	  animation-name: pfloadlord;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+#portfoliopage {
+	margin-top: -30px;
+  animation-name: pfloadlord;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+@keyframes pfloadlord2 {
+	from {
+		transform:translateY(1000px);
+		
+	}
+	to {
+		transform:translateY(0px);
+	
+	}
+}
+#portfoliopage2 {
+	
+	margin-top: -30px;
+  animation-name: pfloadlord2;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
+@keyframes pjloadlord {
+	from {
+
+		background-color: var(--navc);
+	}
+	to {
+		
+		background-color: var(--bgc);
+	}
+}
+
+#pjpage {
+	margin-top: -30px;
+  animation-name: pjloadlord;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+@keyframes pjloadlord2 {
+	from {
+		transform:translateY(0px);
+		
+	}
+	to {
+		transform:translateY(0px);
+	
+	}
+}
+#pjpage2 {
+	
+	margin-top: -30px;
+  animation-name: pjloadlord2;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
+
+
+
+#portfoliofont {
+	
+	font-size: 3vw;
+	color: var(--navc);
+}
+
+
+#pjournalfont {
+	
+	font-size: 3vw;
+	color: var(--navc);
+}
+
+.btn{
+	text-decoration: none;
+	font-weight: 600;
+	color: var(--accentc);
+	 transition: 0.3s;
+}
+
+.btn:hover{
+	text-decoration: none;
+	font-weight: 600;
+	color: var(--hoverc);
+}
+
+
+
+/*Cards*/
+.card{border-radius:0px;border: none; background-color: var(--navc);}
+.card-body {background-color: var(--hoverc);}
+/*Navbar Rules*/
+img.nav-bar-img{
+	margin: 0 auto;
+}
+
+.navbar{
+
+	background-color: var(--navc);
+	margin: 0 auto;
+
+}
+
+.navbar-nav a{
+	font-family: "Josefin Sans";
+	font-weight: 800;
+	font-size: 1.3vw;
+}
+
+
+
+
+.navbar-toggler {
+	background-color: white;
+
+}
+
+.navbar-nav .ml-auto {
+	color: white;
+}
+
+.nav-item{
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: var(--bgc);
+	transition: 0.3s;
+}
+
+.navbar-light .navbar-nav .active .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show .nav-link {
+	color: var(--accentc);
+	transition: 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #EABE7C;
+	transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Floating Nav*/
+.floating-nav{
+	position: fixed;
+	margin-top: 50px;
+	border-left: 3px solid var(--accentc);/*red*/
+}
+
+	a.float-nav-link{
+		
+		color: var(--accentc);/*red*/
+		font-size: 14px;
+		font-weight: 600;
+		text-align: left;
+	}
+
+
+
+/*Image Rules*/
+img{
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 0px solid var(--navc);
+}
+@keyframes loadlord {
+	from {
+		
+		opacity: 0;
+	}
+	to {
+		
+		
+		opacity: 1;
+	}
+}
+/*Font Override Rules*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Josefin Sans";
+	margin-bottom: 20px;
+}
+	h1.welcome-special{
+		font-size: 5vw;
+		color: var(--bgc);
+	animation-name: loadlord;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+	}
+
+	h2.welcome-special-sub{
+			font-family: "Josefin Sans";
+	font-weight: 500;
+		font-size: 2vw;
+		color: var(--bgc);
+			animation-name: loadlord;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+	}
+
+	h3{
+		text-transform: uppercase;
+		color: var(--accentc);/*red*/
+		letter-spacing: -0.5px;
+	}
+
+
+
+	p{
+	font-family: "Lato";
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+
+span.img-caption{
+	display: block;
+	font-size: 1vw;
+	font-weight: 500;
+	padding: 10px 0px 10px 0px;
+}
+
+/*Container/class etc Override Rules*/
+.welcome-message{
+	margin-top: 200px;
+}
+
+.welcome-button-container{
+	margin-top: 20px;
+}
+
+.welcome-button{
+	background-color: var(--navc);
+	border-radius: 0px 0px 0px 0px;
+	border: 0px solid var(--hoverc);
+	font-family: "Josefin Sans";
+	font-weight: 500;
+	font-size: 15px;
+	color: var(--accentc);/*red*/
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+
+.welcome-button:hover{
+	background-color: var(--navc);
+	border-color: var(--navc);
+
+}
+
+.master-heading{
+	padding-top: 50px;	
+}
+
+.section-heading{
+	padding-top: 100px;	
+}
+
+.slide-show{
+	padding: 30px 0px 50px 0px;
+}
+
+/*Footer*/
+.footer{
+	margin-top: 50px;
+	padding-top: 30px;
+	width: 100%;
+	min-height: 100px;
+	background-color: var(--bgc);
+	border-top: 1px solid #727272;
+}
+
+
+
+
