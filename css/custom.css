@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 	h1.welcome-special{
-		font-size: 5vw;
+		font-size: 3.6vw;
 		color: var(--bgc);
 		text-align: left;
 	animation-name: loadlord;
