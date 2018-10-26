@@ -24,7 +24,9 @@ body{
 	
 }
 
-
+.col-10 {
+	max-width: 78%;
+}
 
 .carousel-control {
 position: absolute;
@@ -176,6 +178,7 @@ background: linear-gradient(90deg, var(--accentc) 65%,var(--bgc) 35%);
 	font-weight: 600;
 	color: var(--accentc);
 	 transition: 0.3s;
+	 font-size:1.6vw
 }
 
 .btn:hover{
@@ -184,11 +187,82 @@ background: linear-gradient(90deg, var(--accentc) 65%,var(--bgc) 35%);
 	color: var(--hoverc);
 }
 
+.imageinbod {
+	width: 100%;
+	
+}
 
+.imgflair {
+	padding: 0.6vw;
+	margin-bottom: 0;
+	background: linear-gradient(90deg, var(--navc) 65%,var(--bgc) 35%);
+	width: 100%;
+}
+
+.caption {
+	margin: 2vw;
+	margin-top: 2vw;
+	text-align: left;
+	font-size: 1vw;
+	font-weight: 600;
+	float:  right;
+	width: 40%;
+	min-height: 100% !important;
+
+}
+
+.card-body {
+	width: 55%;
+}
+
+.collapse {
+	background-color: var(--hoverc);
+}
+
+.navbar-collapse {
+	background-color: var(--navc);
+}
+
+.captiontext {
+	margin-bottom: 0.6vw;
+	padding: 0.6vw;
+	padding-top: 0vw;
+	margin-top: -0.2vw;
+	background: linear-gradient(90deg, var(--navc) 65%,var(--bgc) 35%);
+	color: var(--bgc);
+	width: 100%;
+	display: block;
+}
+
+.imgflair2 {
+	padding: 0.6vw;
+	margin-bottom: 0;
+	background: linear-gradient(90deg, var(--navc) 65%,var(--bgc) 35%);
+	width: 100%;
+}
+
+.caption2 {
+	margin: 2vw;
+	text-align: left;
+	font-size: 1vw;
+	font-weight: 600;
+	float:  left;
+	width: 40%;
+	display: block;
+}
+
+.captiontext2 {
+	margin-top: 0.6vw;
+	padding: 0.6vw;
+	background: linear-gradient(90deg, var(--navc) 65%,var(--bgc) 35%);
+	color: var(--bgc);
+	width: 100%;
+	display: block;
+}
 
 /*Cards*/
-.card{border-radius:0px;border: none; background-color: var(--navc);}
-.card-body {background-color: var(--hoverc);}
+.card{border-radius:0px;border: none; background-color: var(--navc); font-size: 1vw;}
+.card-body { font-size:1.2vw;background-color: var(--hoverc);}
 /*Navbar Rules*/
 img.nav-bar-img{
 	margin: 0 auto;
