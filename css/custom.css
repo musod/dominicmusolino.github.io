@@ -50,6 +50,10 @@ background-image:none !important;
     height: 34vw;
 }
 
+#xdptype {
+	padding-right: 1vw;
+	background-color: var(--navc); 
+}
 
 #contact {
 	margin-bottom: 8vw;
